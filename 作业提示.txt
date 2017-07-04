@@ -1,0 +1,47 @@
+导航制作
+
+
+1 下三角:
+
+i { font-style:normal }
+
+.nav li i{ height:6px; overflow:hidden; position:absolute; }
+
+i s{ font-siz:15px;;line-height:15px;font-family:consolas; position:relative; top:-2px; text-decoration:none; }
+
+
+2 购物车
+
+border-radius:6px 6px 6px 0;
+
+
+3 导航菜单;
+
+<div class="nav">
+    <ul>
+        <li> <h3><a href="#">文字</a></h3> </li>
+    </ul>
+    <div class="content">
+
+    </div>
+
+</div>
+
+li{ pading:0 18px 0 10px;}
+
+h3 作用 
+
+(1) 搜索引擎优化;
+
+(2) 溢出隐藏;
+
+overflow: hidden;
+white-space: nowrap; // 强制不换行;
+
+
+
+--------------------------------------------------------
+
+
+
+
